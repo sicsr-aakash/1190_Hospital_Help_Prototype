@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hospi_help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="title_activity_personal">personal</string>
+    <string name="title_activity_habits">habits</string>
+    <string name="title_activity_firstaid">firstaid</string>
+    <string name="title_activity_schedule">schedule</string>
+    <string name="title_activity_room_one">room_one</string>
+    <string name="title_activity_room_two">room_two</string>
+    <string name="title_activity_room_three">room_three</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sanchita.hospi_help.welcome"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="@drawable/light">
+
+
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="30dp"  android:layout_span="2"
+                android:padding="18dip" android:background="#FF0000"
+                android:textColor="#000"
+                android:text="HealthCare!"
+                android:gravity="center"
+                android:id="@+id/hc" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:id="@+id/im1" android:src="@drawable/event"
+
+                android:layout_width="300px"
+                android:layout_height="300px"
+
+                android:padding="20dip" />
+
+            <ImageView
+                android:id="@+id/grid_item_image"
+                android:layout_width="300px"
+                android:layout_height="300px"
+
+                android:src="@drawable/cal" >
+
+            </ImageView>
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_span="2"
+            >
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Info"
+                android:id="@+id/b2"
+                android:layout_below="@+id/b1"
+                android:layout_centerHorizontal="true"
+                android:background="#FF0000"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schedule"
+                android:id="@+id/b3"
+                android:layout_below="@+id/b1"
+                android:layout_centerHorizontal="true"
+                android:background="#FF0000"
+
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+</TableRow>
+    <TableRow
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <ImageView
+            android:id="@+id/im3" android:src="@drawable/img"
+
+            android:layout_width="300px"
+            android:layout_height="300px"
+
+            android:padding="20dip" />
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="300px"
+            android:layout_height="300px"
+
+            android:src="@drawable/kuch" >
+
+        </ImageView>
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_span="2"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Aid"
+            android:id="@+id/b5"
+            android:layout_below="@+id/b1"
+            android:layout_centerHorizontal="true"
+            android:background="#FF0000"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthy Habits!"
+            android:id="@+id/b4"
+            android:layout_below="@+id/b1"
+            android:layout_centerHorizontal="true"
+            android:background="#FF0000"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+    </TableRow>
+    </TableLayout>

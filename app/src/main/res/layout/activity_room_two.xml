@@ -1,0 +1,157 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sanchita.hospi_help.room_two"
+    android:background="#C2FFC2">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_span="4"
+            android:src="@drawable/u"/>
+    </TableRow>
+
+    <TableRow>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:text="Patient name:"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:text="Mr.Mike"
+        android:layout_column="2" />
+</TableRow>
+<TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:text="Doc name:"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:text="Mr.Harvey Specter"
+        android:layout_column="2" />
+</TableRow>
+
+<TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed5"
+        android:text="Disease:"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed6"
+        android:text="Cold"
+        android:layout_column="2" />
+
+</TableRow>
+<TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed7"
+        android:text="Admitted on:"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed8"
+        android:text="19-01-2015"
+        android:layout_column="2" />
+
+</TableRow>
+<TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed9"
+        android:text="Medicine Prescribed:"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed10"
+        android:text="Guaifenesin"
+        android:layout_column="2" />
+
+</TableRow>
+<TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed11"
+        android:text="Time :"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed12"
+        android:text="11:30 AM"
+        android:layout_column="2" />
+
+</TableRow>
+<TableRow>
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"></TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Taken"
+        android:id="@+id/cb1"
+        android:layout_column="0"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Not Taken"
+        android:id="@+id/cb2"
+        android:layout_column="2" />
+</TableRow>
+    <Button
+        android:id="@+id/Clickhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here"
+        android:background="#FF0000"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/Clickher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Call"
+        android:background="#FF0000" />
+
+
+</TableLayout>

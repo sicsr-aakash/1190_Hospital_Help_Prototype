@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sanchita.hospi_help.schedule"
+  android:background="@drawable/rom">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout"
+           >
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Schedule"
+                    android:id="@+id/text"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="35dp"
+                    android:textColor="#660099"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:background="#FFE0C2"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Select Room Number:-"
+                    android:id="@+id/t1"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="35dp"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:paddingTop="30dp"
+                    android:textColor="#000000"
+                    android:singleLine="false"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rg1"
+                android:layout_below="@+id/text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="16"
+
+                >
+                <RadioButton android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ra0"
+                    android:text="401"
+
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    />
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ra1"
+                    android:text="402"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                   />
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ra2"
+                    android:text="403"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    />
+
+            </RadioGroup>
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room_Detail"
+                    android:id="@+id/b1"
+                    android:layout_below="@+id/tableLayout"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#FFE0C2"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+</RelativeLayout>
